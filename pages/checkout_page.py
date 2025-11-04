@@ -41,7 +41,7 @@ class CheckoutPage:
 
     # ===== Page Validation Methods =====
 
-    def get_checkout_page_title(self) -> str:
+    def get_checkout_page_title(self):
         """Return the title of the Checkout page."""
         try:
             return self.page.title()

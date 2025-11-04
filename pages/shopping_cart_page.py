@@ -36,7 +36,7 @@ class ShoppingCartPage:
             print(f"Unable to retrieve total price: {e}")
             return None
 
-    def click_on_checkout(self) -> CheckoutPage:
+    def click_on_checkout(self):
         """
         Clicks on the "Checkout" button and navigates to the Checkout Page.
 

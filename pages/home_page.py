@@ -21,7 +21,7 @@ class HomePage:
     # ===== Action Methods =====
     # Each method represents a user interaction on the page
 
-    def get_home_page_title(self) -> str:
+    def get_home_page_title(self):
         """Return the title of the Home Page."""
         title = self.page.title()
         return title

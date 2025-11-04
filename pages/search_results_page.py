@@ -55,7 +55,7 @@ class SearchResultsPage:
 
     # ===== Product Selection =====
 
-    def select_product(self, product_name: str) -> ProductPage | None:
+    def select_product(self, product_name: str):
         """
         Selects a product from the search results by its name and navigates to the Product Page.
 

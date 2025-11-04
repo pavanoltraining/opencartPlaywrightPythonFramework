@@ -41,7 +41,7 @@ class MyAccountPage:
 
     # ===== Logout Action =====
 
-    def click_logout(self) -> LogoutPage:
+    def click_logout(self):
         """
         Clicks on the 'Logout' link to log out the user.
         Returns an instance of the LogoutPage class
@@ -59,7 +59,7 @@ class MyAccountPage:
 
     # ===== Page Title Verification =====
 
-    def get_page_title(self) -> str:
+    def get_page_title(self):
         """
         Returns the title of the current page.
 

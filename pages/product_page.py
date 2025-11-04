@@ -82,7 +82,7 @@ class ProductPage:
             print(f"Error while clicking cart items button: {e}")
             raise
 
-    def click_view_cart(self) -> ShoppingCartPage:
+    def click_view_cart(self):
         """
         Click the 'View Cart' link inside the cart dropdown.
         Returns an instance of the ShoppingCartPage class.
